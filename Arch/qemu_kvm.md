@@ -2,26 +2,39 @@
 
 This guide is assuming KVM and other virtualization settings are enabled in your BIOS. 
 
-    - Note: You might need to enable IOMMU for Windows VM's that require GPU passthrough
+- Note: You might need to enable IOMMU for Windows VM's that require GPU passthrough
 
-`sudo pacman -S qemu-full virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat iptables ebtables libguestfs`
+
+```
+sudo pacman -S qemu-full virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat iptables ebtables libguestfs
+```
 
 Once installed, enable and start libvirtd:
 
-`sudo systemctl enable libvirtd.service`
+```
+sudo systemctl enable libvirtd.service
+```
 
-`sudo systemctl start libvirtd.service`
+```
+sudo systemctl start libvirtd.service
+```
 
 To check if the virsh net has started, list in the command:
 
-`sudo virsh net-list --all`
+```
+sudo virsh net-list --all
+```
 
 If not, start the default network:
 
-`sudo virsh net-start default`
+```
+sudo virsh net-start default
+```
 
 The virt-manager should now be on the system and able to start virtualizations.
 
 When not using the VM, the network can be stopped by:
 
-`sudo virsh net-destroy default`
+```
+sudo virsh net-destroy default
+```
