@@ -38,3 +38,9 @@ When not using the VM, the network can be stopped by:
 ```
 sudo virsh net-destroy default
 ```
+
+If using this to create a Windows 11 VM and do not want to passthrough a physical TPM 2.0 chip:
+
+```
+sudo pacman -S swtpm
+```
