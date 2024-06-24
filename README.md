@@ -1,4 +1,4 @@
 #  Linux Handbook
-All of my used Linux systems (Arch, Ubuntu (Desk/Server) will be here.
+Scripts and guides used for my Linux systems (Arch, Ubuntu (Desk/Server).
 
-Will be growing as time goes.
+Will continue to add when I get the chance.
