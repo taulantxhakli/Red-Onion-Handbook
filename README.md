@@ -1,4 +1,4 @@
-#  Linux Handbook
-Scripts and guides used for my Linux systems (Arch, Ubuntu (Desk/Server).
+#  Onion Handbook
+Scripts and guides used for my Linux systems (Arch, Ubuntu (Desk/Server) and others.
 
-Will continue to add when I get the chance.
+Will continue to edit readme and directories with more information.
