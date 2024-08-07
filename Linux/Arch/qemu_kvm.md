@@ -28,7 +28,7 @@ sudo virsh net-list --all
 If not, start the default network:
 
 ```
-sudo virsh net-start default
+sudo virsh net-autostart default
 ```
 
 The virt-manager should now be on the system and able to start virtualizations.
