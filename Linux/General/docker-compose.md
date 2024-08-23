@@ -58,4 +58,4 @@ docker compose up -d
 ```
 
 > [!CAUTION]
-> Some docker files can be written to improperly handle data during updates. Make sure the docker file is from the developers of the program you are downloading to prevent corrup or complete loss of data.
+> Some docker files can be written to improperly handle data during updates. Make sure the docker file is from the developers of the program you are downloading to prevent corrupt or complete loss of data.
