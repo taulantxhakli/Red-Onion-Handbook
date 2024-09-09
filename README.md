@@ -1,1 +1,1 @@
-#  Account due for closure. Collect info while you can.
+#  Account due for closure.
